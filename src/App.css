@@ -167,7 +167,7 @@ span.navbar-text {
 }
 
 .social-icon a img {
-  width: 40%;
+  width: 45%;
   z-index: 1;
   transition: 0.3s ease-in-out;
 }
@@ -383,7 +383,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .skill-slider .item img {
-  width: 50%;
+  width: 30%;
   margin: 0 auto 15px auto;
 }
 
