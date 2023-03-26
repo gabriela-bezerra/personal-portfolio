@@ -1,9 +1,10 @@
-import meter1 from "../assets/img/javascript.svg";
-import meter2 from "../assets/img/html5.svg";
-import meter3 from "../assets/img/css-3.svg";
+import meter1 from "../assets/img/javascript.png";
+import meter2 from "../assets/img/html5.png";
+import meter3 from "../assets/img/css.png";
 import meter4 from "../assets/img/python.png";
 import meter5 from "../assets/img/react.png";
 import meter6 from "../assets/img/git.png";
+import meter7 from "../assets/img/postgresql.png";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import arrow1 from "../assets/img/arrow1.svg";
@@ -64,6 +65,10 @@ export const Skills = () => {
                                 <div className="item">
                                     <img src={meter6} alt="Image" />
                                     <h5>Git</h5>
+                                </div>
+                                <div className="item">
+                                    <img src={meter7} alt="Image" />
+                                    <h5>PostgreSQL</h5>
                                 </div>
 
                             </Carousel>
